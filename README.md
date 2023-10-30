@@ -13,3 +13,8 @@ Dentro deste curso Alura, aprendi: 👨🏻‍💻
 - Array splice;
 - Palavras reservadas;
 - Indices do array;
+- If e Else
+- Operadores lógicos
+- if encadeado
+- else if
+- && e ||
