@@ -13,14 +13,14 @@ Dentro deste curso Alura, aprendi: 👨🏻‍💻
 - Array splice;
 - Palavras reservadas;
 - Indices do array;
-- If e Else
-- Operadores lógicos
-- if encadeado
-- else if
-- && e ||
-- While
-- Break
-- Usando o Debbuger do VS Code
-- Entendendo o fluxo de execução do código
-- configurando o debbuger do VSCode
-- For Loop
+- If e Else;
+- Operadores lógicos;
+- if encadeado;
+- else if;
+- && e ||;
+- While;
+- Break;
+- Usando o Debbuger do VS Code;
+- Entendendo o fluxo de execução do código;
+- configurando o debbuger do VSCode;
+- For Loop;
