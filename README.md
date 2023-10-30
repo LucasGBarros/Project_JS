@@ -18,3 +18,9 @@ Dentro deste curso Alura, aprendi: 👨🏻‍💻
 - if encadeado
 - else if
 - && e ||
+- While
+- Break
+- Usando o Debbuger do VS Code
+- Entendendo o fluxo de execução do código
+- configurando o debbuger do VSCode
+- For Loop
