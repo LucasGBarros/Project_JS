@@ -34,3 +34,8 @@ Dentro do planejamento do curso de JavaScript: Programando a Orientação a Obje
     > O que são atributos
     > Instâcia/Objeto
     > Operador new
+    > Criação de métodos
+    > Palavra chave this
+    > Encapsulamento
+    > Proposta de atributos privados
+    > Return e early return

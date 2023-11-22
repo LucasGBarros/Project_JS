@@ -1,6 +1,11 @@
+class Cliente{
+    nome;
+    cpf;
+}
+
 class contaCorrente{
     agencia;
-    _saldo;
+    _saldo = 0;
 
     sacar(valor){
         if(this._saldo >= valor){
@@ -10,10 +15,11 @@ class contaCorrente{
     }
 
     depositar(valor){
-        if(valor <= 0){
+        if(valor <= 0)
+        {
             return;
-        }
-        this._saldo += valor;
+        } 
+        this._saldo += valor;           
     }
 }
 // A classe é um modelo de estrutura para ser preenchido de acordo com as informações que voce quer
@@ -21,10 +27,10 @@ class contaCorrente{
 
 // Criando variavel com as informações da classe
 const cliente1 = new Cliente(); 
+
 cliente1.nome = "Lucas";
 cliente1.cpf = 12345678901;
 
-// Criando variavel com as informações da classe
 const cliente2 = new Cliente();
 cliente2.nome = "Alice"
 cliente2.cpf = 77788899945;
@@ -34,7 +40,7 @@ cliente2.cpf = 77788899945;
 const contaCorrenteLucas = new contaCorrente();
 contaCorrenteLucas.agencia = 1001;
 
-contaCorrenteLucas.depositar(100);
+contaCorrenteLucas.depositar(-100); // Inserindo Saldo
 contaCorrenteLucas.depositar(100);
 contaCorrenteLucas.depositar(100);
 
