@@ -15,12 +15,20 @@ cliente2.cpf = 77788899945;
 
 const contaCorrenteLucas = new contaCorrente();
 contaCorrenteLucas.agencia = 1001;
+contaCorrenteLucas.cliente = cliente1;
+contaCorrenteLucas.depositar(500);
 
-contaCorrenteLucas.depositar(-100); // Inserindo Saldo
-contaCorrenteLucas.depositar(100);
-contaCorrenteLucas.depositar(100);
-
-const valorSacado = contaCorrenteLucas.sacar(50);
-
-console.log(valorSacado);
+const conta2 = new contaCorrente();
+conta2.cliente= cliente2;
+conta2.agencia= 102;
 console.log(contaCorrenteLucas);
+console.log(conta2);
+
+
+let valor = 200;
+contaCorrenteLucas.transferir(valor, conta2)
+
+console.log("Valor: ", valor)
+
+console.log(contaCorrenteLucas);
+console.log(conta2);

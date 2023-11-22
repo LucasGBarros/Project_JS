@@ -39,3 +39,9 @@ Dentro do planejamento do curso de JavaScript: Programando a Orientação a Obje
     > Encapsulamento
     > Proposta de atributos privados
     > Return e early return
+    > Package.json
+    > Modules
+    > import/export
+    > Quais as vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos
+    > Tipos de valor e tipos de referência
+    > Alterando dinamicamente um objeto
