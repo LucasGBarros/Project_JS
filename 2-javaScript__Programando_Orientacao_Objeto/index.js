@@ -1,7 +1,3 @@
-class Cliente{
-nome;
-cpf;
-}
 class contaCorrente{
     agencia;
     _saldo;
@@ -20,15 +16,20 @@ class contaCorrente{
         this._saldo += valor;
     }
 }
+// A classe é um modelo de estrutura para ser preenchido de acordo com as informações que voce quer
 
-const cliente1 = new Cliente();
+
+// Criando variavel com as informações da classe
+const cliente1 = new Cliente(); 
 cliente1.nome = "Lucas";
 cliente1.cpf = 12345678901;
 
+// Criando variavel com as informações da classe
 const cliente2 = new Cliente();
 cliente2.nome = "Alice"
 cliente2.cpf = 77788899945;
-// contaCorrenteLucas.depositar(-1); // conforme a descrição de classe da função depositar só recebe valor>0, o valor negativo nao é executado
+// contaCorrenteLucas.depositar(-1); 
+// conforme a descrição de classe da função depositar só recebe valor>0, o valor negativo nao é executado
 
 const contaCorrenteLucas = new contaCorrente();
 contaCorrenteLucas.agencia = 1001;
