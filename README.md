@@ -45,3 +45,12 @@ Dentro do planejamento do curso de JavaScript: Programando a Orientação a Obje
     > Quais as vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos
     > Tipos de valor e tipos de referência
     > Alterando dinamicamente um objeto
+    > Diferenças entre null e undefined
+    > Aprofundando nos conceitos de referências a um espaço de memória
+    > Get e Set
+    > Melhor encapsulamento da classe
+    > Protegendo atributos sensíveis
+    > Construtores
+    > Encapsulamento
+    > Atributos "readonly"
+    > Atributos estáticos
