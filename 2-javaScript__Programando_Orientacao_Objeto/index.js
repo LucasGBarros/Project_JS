@@ -2,30 +2,18 @@ import {Cliente} from "./Cliente.js"
 import {contaCorrente} from "./ContaCorrente.js"
 
 // Criando variavel com as informações da classe
-const cliente1 = new Cliente(); 
+const cliente1 = new Cliente("Lucas", 12345678901); 
+const cliente2 = new Cliente("Alice", 77788899945);
 
-cliente1.nome = "Lucas";
-cliente1.cpf = 12345678901;
-
-// const cliente2 = new Cliente();
-// cliente2.nome = "Alice"
-// cliente2.cpf = 77788899945;
-// contaCorrenteLucas.depositar(-1); 
 // conforme a descrição de classe da função depositar só recebe valor>0, o valor negativo nao é executado
 
-const contaCorrenteLucas = new contaCorrente();
-contaCorrenteLucas.agencia = 1001;
-contaCorrenteLucas.cliente = cliente1;
+let numConta = 0;
+const contaCorrenteLucas = new contaCorrente(1001, cliente1);
+
 contaCorrenteLucas.depositar(500);
-
-const conta2 = new contaCorrente();
-conta2.cliente= cliente1;
-conta2.agencia= 102;
-
+const conta2 = new contaCorrente(102, cliente2);
 
 let valor = 200;
-contaCorrenteLucas.transferir(valor, conta2)
+contaCorrenteLucas.transferir(valor,conta2);
 
-// conta2.saldo = 30000;
-// console.log(contaCorrenteLucas);
-console.log(conta2.saldo);
+console.log(contaCorrente.numConta);
